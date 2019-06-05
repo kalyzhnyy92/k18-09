@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>09. Формы. Кроссбраузерная стилизация элементов формы (UI)</title>
+	<link rel="stylesheet" href="fonts/fonts.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/module-grid.css">
+</head>
+<body>
+
+
+	<div class="header">
+		<div class="container">
+			<div class="content">
+				<a href="#">
+					<img src="img/blog.png" alt="blog">
+				</a>
+				<ul class="main-menu">
+			      <li><a class="vertical" href="#">РУБРИКИ</a></li>
+			      <li><a class="vertical" href="#">ГАЛЕРЕЯ</a>
+			        <ul class="sub-menu">
+			          <li><a class="vertical" href="#">Lorem ipsum 1</a></li>
+			          <li><a class="vertical" href="#">Lorem ipsum 2</a></li>
+			          <li><a class="vertical" href="#">Lorem ipsum 3</a></li>
+			          <li><a class="vertical" href="#">Lorem ipsum 4</a></li>
+			        </ul>
+			      </li>
+			      <li><a class="vertical" href="#">КОНТАКТЫ</a></li>
+			    </ul>
+			    <a class="button" href="#">ВХОД</a>
+			</div>
+		</div>
+	</div>
+		<div class="container">
+			<p>Сетка флоатов (12 позиций)</p>
+			<div class="line"></div>
+			<div class="module-grid">
+				<div class="module-grid__cell-12">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid__cell-1">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid__cell-11">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid__cell-2">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid__cell-10">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid__cell-3">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid__cell-9">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid__cell-4">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid__cell-8">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid__cell-5">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid__cell-7">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid__cell-6">
+					<div class="float"></div>
+				</div>
+			</div>
+			<p>Сетка флоатов, с отступами</p>
+			<div class="line"></div>
+			<div class="module-grid--gutters">
+				<div class="module-grid--gutters__cell-12">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid--gutters__cell-1">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid--gutters__cell-11">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid--gutters__cell-2">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid--gutters__cell-10">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid--gutters__cell-3">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid--gutters__cell-9">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid--gutters__cell-4">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid--gutters__cell-8">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid--gutters__cell-5">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid--gutters__cell-7">
+					<div class="float"></div>
+				</div>
+				<div class="module-grid--gutters__cell-6">
+					<div class="float"></div>
+				</div>
+			</div>
+			<p>Отзывы посетителей нашего сайта</p>
+			<div class="line"></div>
+				
+				<div class="comments">
+					<div class="comments__avatar">
+						<img src="img/photo.png" alt="photo">
+					</div>
+					<div class="comments__description">
+						<div class="comments__author">Иван Иванов</div>
+						<div class="comments__date">11 февраля 2016</div>
+						<div class="comments__text">Говоря о деталях, для того чтобы товар бросался в глаза и его хотелось купить, с помощью акцентного освещения получается сделать четкие грани, что обеспечивает контрастность в освещении. Также с помощью профессионального светотехнического оборудования можно варьировать оттенок белого света. Например, для каждой отдельной коллекции необходимо свое восприятие, а также естественное освещение, что повышает уровень интереса клиентов.</div>
+					</div>
+				</div>
+
+				<hr style="margin-top: 30px; margin-bottom: 34px;">
+
+				<div class="comments">
+					<div class="comments__avatar">
+						<img src="img/photo.png" alt="photo">
+					</div>
+					<div class="comments__description">
+						<div class="comments__author">Иван Иванов</div>
+						<div class="comments__date">11 февраля 2016</div>
+						<div class="comments__text">Говоря о деталях, для того чтобы товар бросался в глаза и его хотелось купить, с помощью акцентного освещения получается сделать четкие грани, что обеспечивает контрастность в освещении. Также с помощью профессионального светотехнического оборудования можно варьировать оттенок белого света. Например, для каждой отдельной коллекции необходимо свое восприятие, а также естественное освещение, что повышает уровень интереса клиентов.</div>
+					</div>
+				</div>
+
+				<hr style="margin-top: 30px; margin-bottom: 34px;">
+
+				<div class="comments" style="margin-bottom: 95px;">
+					<div class="comments__avatar">
+						<img src="img/photo.png" alt="photo">
+					</div>
+					<div class="comments__description">
+						<div class="comments__author">Иван Иванов</div>
+						<div class="comments__date">11 февраля 2016</div>
+						<div class="comments__text">Говоря о деталях, для того чтобы товар бросался в глаза и его хотелось купить, с помощью акцентного освещения получается сделать четкие грани, что обеспечивает контрастность в освещении. Также с помощью профессионального светотехнического оборудования можно варьировать оттенок белого света. Например, для каждой отдельной коллекции необходимо свое восприятие, а также естественное освещение, что повышает уровень интереса клиентов.</div>
+					</div>
+				</div>
+
+
+				<div class="center">
+					<h2>Галерея</h2>
+					<div class="line"></div>
+					<div class="cell-20" style="margin-right: 33px;">
+						<div class="gallery">
+							<img src="img/rectangle.png">
+						</div>
+						<div class="gallery__text">Lorem ipsum dolor sit amet, consectetur.<br>
+						Lorem ipsum dolor sit amet,</div>
+					</div>
+
+					<div class="cell-20" style="margin-right: 33px;">
+						<div class="gallery">
+							<img src="img/rectangle.png">
+						</div>
+						<div class="gallery__text">Lorem ipsum dolor sit amet, consectetur.<br>
+						Lorem ipsum dolor sit amet,</div>
+					</div>
+
+					<div class="cell-20" style="margin-right: 33px;">
+						<div class="gallery">
+							<img src="img/rectangle.png">
+						</div>
+						<div class="gallery__text">Lorem ipsum dolor sit amet, consectetur.<br>
+						Lorem ipsum dolor sit amet,</div>
+					</div>
+
+					<div class="cell-20">
+						<div class="gallery">
+							<img src="img/rectangle.png">
+						</div>
+						<div class="gallery__text">Lorem ipsum dolor sit amet, consectetur.<br>
+						Lorem ipsum dolor sit amet,</div>
+					</div>
+
+					<div class="cell-20" style="margin-right: 33px;">
+						<div class="gallery">
+							<img src="img/rectangle.png">
+						</div>
+						<div class="gallery__text">Lorem ipsum dolor sit amet, consectetur.<br>
+						Lorem ipsum dolor sit amet,</div>
+					</div>
+
+					<div class="cell-20" style="margin-right: 33px;">
+						<div class="gallery">
+							<img src="img/rectangle.png">
+						</div>
+						<div class="gallery__text">Lorem ipsum dolor sit amet, consectetur.<br>
+						Lorem ipsum dolor sit amet,</div>
+					</div>
+
+					<div class="cell-20" style="margin-right: 33px;">
+						<div class="gallery">
+							<img src="img/rectangle.png">
+						</div>
+						<div class="gallery__text">Lorem ipsum dolor sit amet, consectetur.<br>
+						Lorem ipsum dolor sit amet,</div>
+					</div>
+
+					<div class="cell-20">
+						<div class="gallery">
+							<img src="img/rectangle.png">
+						</div>
+						<div class="gallery__text">Lorem ipsum dolor sit amet, consectetur.<br>
+						Lorem ipsum dolor sit amet,</div>
+					</div>
+
+				</div>
+
+				<div class="form">
+					<h2>Элементы формы</h2>
+					<div class="line1"></div>
+				</div>
+
+				<form class="forms" style="margin-right: 15px;">
+					<legend>Lorem ipsum</legend>
+					<label>
+						<input type="text" placeholder="Input text placeholder">
+					</label>
+
+					<legend>Lorem ipsum</legend>
+					<label class="lock">
+				  		<span></span>
+				  		<input type="text" placeholder="Input text placeholder">
+					</label>
+
+					<legend>Lorem ipsum</legend>
+					<label>
+						<select>
+							<option value="1">Select items</option>
+							<option value="2">Input text placeholder</option>
+							<option value="3">Input value</option>
+						</select>
+					</label>
+				</form>
+
+				<form class="forms" style="margin-right: 17px;">
+					<legend>Lorem ipsum</legend>
+					<label>
+						<input type="text" value="Input value">
+					</label>
+
+					<legend>Lorem ipsum</legend>
+					<label class="lock">
+				 		<span></span>
+				  		<input type="text" value="Input value">
+					</label>
+
+					<legend>Lorem ipsum</legend>
+					<label class="select">
+						<select>
+							<option value="1">Select items (focus)</option>
+							<option value="2">Input text placeholder</option>
+							<option value="3">Input value</option>
+						</select>
+					</label>
+				</form>
+
+				<form class="forms" style="margin-right: 15px;">
+					<legend>Lorem ipsum</legend>
+					<label class="select">
+						<input type="text" placeholder="Focus state">
+					</label>
+
+					<legend>Lorem ipsum</legend>
+					<label class="lock focus">
+					  <span></span>
+					  <input type="text" placeholder="Focus state">
+					</label>
+
+					<legend>Lorem ipsum</legend>
+					<label class="phone">
+						<span></span>
+						<select>
+							<option value="1">Select items</option>
+							<option value="2">Input text placeholder</option>
+							<option value="3">Input value</option>
+						</select>
+					</label>
+				</form>
+
+				<form class="forms">
+					<legend>Lorem ipsum</legend>
+					<label class="select">
+						<input type="text" value="Focus state input value">
+					</label>
+
+					<legend>Lorem ipsum</legend>
+					<label class="lock focus">
+				  		<span></span>
+				  		<input type="text" value="Focus state input value">
+					</label>
+
+					<legend>Lorem ipsum</legend>
+					<label class="phone focus">
+						<span></span>
+						<select>
+							<option value="1">Select items (focus)</option>
+							<option value="2">Input text placeholder</option>
+							<option value="3">Input value</option>
+						</select>
+					</label>
+				</form>
+
+				<form class="checkbox">
+					<legend>Lorem ipsum</legend>
+					<label>
+						<input type="checkbox" name="g" checked>
+						<span></span>Lorem ipsum dolar
+					</label>
+					<label>
+						<input type="checkbox" name="g1">
+						<span></span>Lorem ipsum dolar
+					</label>
+					<label>
+						<input type="checkbox" name="g2">
+						<span></span>Lorem ipsum dolar
+					</label>
+				</form>
+
+				<form class="radio">
+					<legend>Lorem ipsum</legend>
+					<label>
+						<input type="radio" name="g1" checked>
+						<span></span>Lorem ipsum dolar
+					</label>
+					<label>
+						<input type="radio" name="g1">
+						<span></span>Lorem ipsum dolar
+					</label>
+					<label>
+						<input type="radio" name="g1">
+						<span></span>Lorem ipsum dolar
+					</label>
+				</form>
+
+				<form class="textarea" style="margin-right: 16px;">
+					<legend>Lorem ipsum</legend>
+					<textarea placeholder="Textarea placeholder" type="text"></textarea>
+				</form>
+				<form class="textarea focus">
+					<legend>Lorem ipsum</legend>
+					<textarea placeholder="Textarea value" type="text"></textarea>
+				</form>
+
+
+				<form class="textarea1" style="margin-right: 16px;">
+					<legend>Lorem ipsum</legend>
+					<span></span>
+					<textarea placeholder="Textarea placeholder" type="text"></textarea>
+				</form>
+				<form class="textarea1 focus1">
+					<legend>Lorem ipsum</legend>
+					<span></span>
+					<textarea placeholder="Textarea value" type="text"></textarea>
+				</form>
+
+        		<button type="submit">SUBMIT</button>
+				<button type="reset">RESET</button>
+				<button type="button">BUTTON</button>
+				<button class="upload__file">
+          			<img src="img/upload.png" alt="upload">UPLOAD FILE
+          			<input type="file" name="myfile">
+          		</button>
+
+			</div>
+			
+		</div>
+
+</body>
+</html>
